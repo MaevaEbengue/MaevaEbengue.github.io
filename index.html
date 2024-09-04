@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Section</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #333;
+  }
+
+  /* Additional CSS for Projects Section */
+.projects-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+.card-img-top {
+  max-height: 180px; /* Adjust this value to fit the image properly in the card */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.25rem;
+}
+.card-text {
+  margin-bottom: 15px;
+}
+
+/* Additional CSS for Skills Section */
+.skills-section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+.skills-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.skills-section .card-img-top {
+  padding: 20px; /* Add padding around your images if needed */
+  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
+  height: 180px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.skills-section .card-body {
+  padding: 15px;
+}
+.skills-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.skills-section .btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+.skills-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Additional CSS for Contact Section */
+.contact-section {
+  padding: 50px 0;
+}
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 50px; /* Size of your icons */
+  margin-bottom: 10px;
+}
+/* Hover effect for icons */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* Style for links in the Contact section */
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 10px;
+}
+.contact-section a:hover {
+  color: #ddd; /* Color when hovering over the link */
+}
+
+/* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+}
+
+/* Ensure padding is added to body to avoid content being hidden behind the navbar */
+body { 
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Same as navbar color for seamless look */
+  }
+.languages-section {
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.language-card {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+}
+
+.language-card i {
+  color: #007bff; /* Change to your preferred color */
+}
+
+.language-card h4 {
+  color: #333;
+  font-size: 1.25rem;
+}
+
+.language-card p {
+  font-size: 1rem;
+  color: #666;
+}
+}
+
+
+</style>
+
+</head>
+<body>
+<!-- Static Text Section -->
+<div class="static-text">
+    <h3 id="static-text">DATA IS THE SOLUTION ! </h3>
+</div>
+
+<!-- About Section -->
+<section id='about' class="about-section">
+    <div class="container">
+        <h2>About</h2>
+        <img src="images/about/1.jpg" alt="About Me" class="img-fluid mb-3">
+        <p>"Hello my name is Maëva Ebengue, welcome to my portfolio! Passionate about data analysis, I leverage my skills in statistical modeling, large-scale data processing, and visualization to transform complex data into actionable insights. With a foundation in machine learning and a strong drive for innovation, I am dedicated to optimizing processes and developing data-driven solutions tailored to business needs."</p>
+        <p>I graduated with an engineering degree in meteorology from the Hydrometeorological Institute of Training and Research in Algeria, a training center of the World Meteorological Organization (WMO). I pursued additional training at the National School of Meteorology in France and completed a specialization in innovative project management and entrepreneurship at ISAE-Supaero. My areas of expertise include Statistical Data Analysis, Python Programming Language (Familiar with PyTorch, scikit-learn, TensorFlow, Keras) as well as Project Management and Entrepreneurship.</p>
+        <a href="C:/Users/pc cam/Downloads/DS-Portfolio-Website-ChatGPT-main/DS-Portfolio-Website-ChatGPT-main/CV_Maeva_septembre.pdf" download class="btn btn-primary mt-3">Download My Resume</a>
+    </div>
+</section>
+
+</body>
+</html>
+<!-- CSS for Button -->
+<style>
+  .about-section {
+    padding: 40px 0;
+    text-align: center;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section bg-light" id="projects">
+  <div class="container">
+    <h2 class="text-center">Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1 : Climate Change</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+            <a href="#" class="btn btn-primary">Blog Post</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project 2 : Fashion Nova </h5>
+            <p class="card-text">This project aims to create a desirability index for the Fashion Nova brand by analyzing sentiment on social media, forums, news articles, and search trends. This index will measure the brand's popularity and appeal, helping companies track their market position.</p>
+            <a href="#" class="btn btn-primary">Blog Post</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/projects/3.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Project 3 : Airport Data </h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
+            <a href="#" class="btn btn-primary">Blog Post</a>
+            <a href="#" class="btn btn-secondary">Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- Skills Section -->
+<section id="skills" class="skills-section bg-white">
+  <div class="container">
+    <h2 class="text-center mb-5">Skills</h2>
+    <div class="row">
+
+      <!-- Technical Skills (Colonne Gauche) -->
+      <div class="col-lg-7"> <!-- Increased width -->
+        <h3 class="text-center mb-4">Technical Skills</h3>
+        <div class="row">
+          <!-- Skill 1 -->
+          <div class="col-md-6 mb-4">
+            <div class="card text-center" style="height: 220px;">
+              <img src="images/skills/1.png" class="card-img-top mx-auto d-block" alt="Python" style="max-width: 100px; height: auto; margin-top: 20px;">
+              <div class="card-body p-3">
+                <h6 class="card-title" style="font-size: 1rem;">Python</h6>
+                <p class="card-text" style="font-size: 0.85rem;">Versatile language for data analysis and web development</p>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 2 -->
+          <div class="col-md-6 mb-4">
+            <div class="card text-center" style="height: 220px;">
+              <img src="images/skills/2.png" class="card-img-top mx-auto d-block" alt="Data Visualization" style="max-width: 100px; height: auto; margin-top: 20px;">
+              <div class="card-body p-3">
+                <h6 class="card-title" style="font-size: 1rem;">Data Visualization</h6>
+                <p class="card-text" style="font-size: 0.85rem;">Tools like Power BI, Looker, and libraries like Matplotlib, Seaborn</p>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 3 -->
+          <div class="col-md-6 mb-4">
+            <div class="card text-center" style="height: 220px;">
+              <img src="images/skills/3.png" class="card-img-top mx-auto d-block" alt="SQL" style="max-width: 100px; height: auto; margin-top: 20px;">
+              <div class="card-body p-3">
+                <h6 class="card-title" style="font-size: 1rem;">SQL</h6>
+                <p class="card-text" style="font-size: 0.85rem;">Essential for querying data and performing operations on relational databases</p>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 4 -->
+          <div class="col-md-6 mb-4">
+            <div class="card text-center" style="height: 220px;">
+              <img src="images/skills/4.png" class="card-img-top mx-auto d-block" alt="R Studio" style="max-width: 100px; height: auto; margin-top: 20px;">
+              <div class="card-body p-3">
+                <h6 class="card-title" style="font-size: 1rem;">R Studio</h6>
+                <p class="card-text" style="font-size: 0.85rem;">Programming language used for statistical computing and graphics</p>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 5: Statistics -->
+          <div class="col-md-6 mb-4">
+            <div class="card text-center" style="height: 220px;">
+              <img src="images/skills/5.png" class="card-img-top mx-auto d-block" alt="Statistics" style="max-width: 100px; height: auto; margin-top: 20px;">
+              <div class="card-body p-3">
+                <h6 class="card-title" style="font-size: 1rem;">Statistics</h6>
+                <p class="card-text" style="font-size: 0.85rem;">Includes descriptive analysis, clustering, and decision tree regression</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills (Colonne Droite) -->
+      <div class="col-lg-5"> <!-- Decreased width -->
+        <h3 class="text-center mb-4">Soft Skills</h3>
+        <div class="row">
+          <!-- Soft Skill 1 -->
+          <div class="col-md-6 mb-3">
+            <div class="card flip-card" style="height: 150px;">
+              <div class="flip-card-inner">
+                <div class="flip-card-front p-3 d-flex flex-column align-items-center justify-content-center">
+                  <i class="fas fa-comments fa-2x mb-1"></i>
+                  <h6 class="mt-2">Communication</h6>
+                </div>
+                <div class="flip-card-back p-3 d-flex align-items-center justify-content-center">
+                  <p style="font-size: 0.75rem;">Excellent verbal and written communication skills.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skill 2 -->
+          <div class="col-md-6 mb-3">
+            <div class="card flip-card" style="height: 150px;">
+              <div class="flip-card-inner">
+                <div class="flip-card-front p-3 d-flex flex-column align-items-center justify-content-center">
+                  <i class="fas fa-users fa-2x mb-1"></i>
+                  <h6 class="mt-2">Teamwork</h6>
+                </div>
+                <div class="flip-card-back p-3 d-flex align-items-center justify-content-center">
+                  <p style="font-size: 0.75rem;">Ability to work effectively within a team.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skill 3 -->
+          <div class="col-md-6 mb-3">
+            <div class="card flip-card" style="height: 150px;">
+              <div class="flip-card-inner">
+                <div class="flip-card-front p-3 d-flex flex-column align-items-center justify-content-center">
+                  <i class="fas fa-lightbulb fa-2x mb-1"></i>
+                  <h6 class="mt-2">Problem-solving</h6>
+                </div>
+                <div class="flip-card-back p-3 d-flex align-items-center justify-content-center">
+                  <p style="font-size: 0.75rem;">Strong problem-solving and analytical skills.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skill 4 -->
+          <div class="col-md-6 mb-3">
+            <div class="card flip-card" style="height: 150px;">
+              <div class="flip-card-inner">
+                <div class="flip-card-front p-3 d-flex flex-column align-items-center justify-content-center">
+                  <i class="fas fa-clock fa-2x mb-1"></i>
+                  <h6 class="mt-2">Time Management</h6>
+                </div>
+                <div class="flip-card-back p-3 d-flex align-items-center justify-content-center">
+                  <p style="font-size: 0.75rem;">Effective time management and organizational skills.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Languages Section -->
+    <div class="row mt-5">
+      <div class="col-lg-12">
+        <h3 class="text-center mb-4">Languages</h3>
+        <ul class="list-unstyled text-center">
+          <li><img src="https://cdn-icons-png.flaticon.com/512/197/197560.png" alt="French Flag" style="width: 24px; vertical-align: middle; margin-right: 8px;"> <strong>French:</strong> Native</li>
+          <li><img src="https://cdn-icons-png.flaticon.com/512/197/197374.png" alt="English Flag" style="width: 24px; vertical-align: middle; margin-right: 8px;"> <strong>English:</strong> B2 CEFR Level</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS pour les flip cards -->
+<style>
+  .flip-card {
+    perspective: 1000px;
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.25rem; /* Optional: add rounded corners */
+  }
+  .flip-card-front {
+    background-color: #f8f9fa;
+    color: black;
+  }
+  .flip-card-back {
+    background-color: #007bff;
+    color: white;
+    transform: rotateY(180deg);
+  }
+</style>
+
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-center text-white bg-dark">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <p><i class="fas fa-envelope"></i> mae.ebengue@gmail.com</p>
+      </div>
+      <div class="col-lg-6">
+        <p><i class="fas fa-phone"></i> +33 774965508</p>
+      </div>
+    </div>
+    <div class="row justify-content-center mt-4">
+      <div class="col-lg-2 col-md-4 mb-4 d-flex flex-column align-items-center">
+        <a href="https://www.linkedin.com/in/maevaebengue/" target="_blank" class="text-white">
+          <img src="icons/linkedin.png" alt="LinkedIn" class="social-icon mb-2">
+          LinkedIn
+        </a>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 d-flex flex-column align-items-center">
+        <a href="https://github.com/MaevaEbengue" target="_blank" class="text-white">
+          <img src="icons/github.png" alt="GitHub" class="social-icon mb-2">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS pour les icônes sociales -->
+<style>
+  .social-icon {
+    max-width: 40px;
+    height: auto;
+  }
+  .contact-section {
+    padding: 40px 0;
+  }
+</style>
+
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
